@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button.hide {
+    display: none;
+}
+
+#answers button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+#info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#timer, #score {
+    font-size: 18px;
+    font-weight: bold;
+}
